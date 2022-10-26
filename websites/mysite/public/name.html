@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Name Test</title>
+</head>
+<body>
+	<style type="text/css">
+		body { font-family: "Helvetica"; }
+	</style>
+	<!-- Variables separated by &amp -->
+	<!-- <a href="name.php?firstname=Tom&amp;lastname=Hank">Hello, I am Tom Hank!</a> -->
+
+	<!-- Get method tells browser how to send the variables along with the request -->
+	<!--
+	<form action="name.php" method="get">
+		<label for="firstname">First name:</label>
+		<input type="text" name="firstname" id="firstname">
+		
+		<label for="lastname">Last name:</label>
+		<input type="text" name="lastname" id="lastname">
+
+		<input type="submit" value="GO">
+	</form>
+	-->
+
+	<!-- Post method instructs browser to send form variable invisibly versus as embedded -->
+	<form action="" method="post">
+		<h2>Form.</h2>
+		<label for="firstname">First name:</label>
+		<input type="text" name="firstname" id="firstname">
+
+		<label for="lastname">Last name:</label>
+		<input type="text" name="lastname" id="lastname">
+		
+		<input type="submit" value="GO">
+	</form>
+</body>
+</html>
